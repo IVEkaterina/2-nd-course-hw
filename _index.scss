@@ -39,14 +39,14 @@
         text-align: center;
         color: #ffffff;
         border: 1px solid #202027;
-        width: 247px;
-        height: 66px;
+        width: 117px;
+        height: 34px;
         gap: 10px;
         border-radius: 60px;
         padding-top: 16px;
-        padding-right: 28px;
+        padding-right: 65px;
         padding-bottom: 16px;
-        padding-left: 28px;
+        padding-left: 65px;
         border-width: 1px;
         background: #202027;
         &:hover {
@@ -57,6 +57,7 @@
     }
     &__big {
         &-star {
+            position: absolute;
             top: 0;
             right: 0;
             z-index: -1;
@@ -141,6 +142,9 @@
 }
 
 .article {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
     &__top {
         width: 378px;
         height: 473px;
@@ -155,41 +159,38 @@
     }
 }
 
-.articles {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-}
-
-.stars {
-    position: absolute;
-}
-
 .star {
+    position: absolute;
     bottom: 149px;
     right: 344px;
-    &--green {
+    &-green {
+        position: absolute;
         top: 94px;
         left: 63px;
         &-small {
+            position: absolute;
             bottom: 225px;
             right: 455px;
         }
     }
     &-small {
+        position: absolute;
         top: 69px;
         left: 156px;
     }
     &-game {
+        position: absolute;
         z-index: -1;
         left: 40px;
         top: 822px;
         &-big {
+            position: absolute;
             top: 77px;
-            right: -142.56px;
+            right: 0px;
             z-index: -1;
         }
         &-small {
+            position: absolute;
             z-index: -1;
             left: 25px;
             top: 770px;
