@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000;
+    font-family: "Montserrat", sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(16, 49, 49);
+}
+
+@import 'index';
