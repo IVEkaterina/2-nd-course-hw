@@ -239,7 +239,7 @@ a {
   padding-top: 48px;
   padding-left: 48px;
   padding-right: 48px;
-  max-width: 504px;
+  width: 504px;
   display: flex;
   flex-direction: column;
 }
@@ -253,7 +253,6 @@ a {
 .mini__description {
   padding-top: 24px;
   padding-bottom: 36px;
-  width: 457px;
   height: 64px;
   font-weight: 400;
   font-size: 24px;
