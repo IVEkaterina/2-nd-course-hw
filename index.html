@@ -16,8 +16,8 @@
             <h1 class="header__title">Добро пожаловать <br> на мой сайт мини-игр</h1>
             <p class="header__description">Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай «Поехали!» и приступай.</p>
         </div>
-        <div class="header__button-box">
-            <a href="#section2" class="header__button">Поехали!</a>
+        <div class="button-box">
+            <a href="#section2" class="button">Поехали!</a>
         </div>
         <picture class="header__big-star">
             <source media="(max-width: 767px)" srcset="img/mob-header--big-star.png">
@@ -52,15 +52,15 @@
         </div>
         <div class="game-box">
             <div class="article">
-                <a href="#"><article class="game article__top">
-                <img src="img/game-1.jpg" alt="game №1" class="game__img">
+                <a href="#game-1"><article class="game article__top">
+                <img src="img/about-game/game-1.jpg" alt="game №1" class="game__img">
                 <div class="game__description">
                     <p class="game__number">Игра №1</p>
                     <p class="game__title">Угадай число</p>
                 </div>
                 </article></a>
-                <a href="#"><article class="game article__bottom">
-                <img src="img/game-4.jpg" alt="game №4" class="game__img">
+                <a href="#game-4"><article class="game article__bottom">
+                <img src="img/about-game/game-4.jpg" alt="game №4" class="game__img">
                 <div class="game__description">
                     <p class="game__number">Игра №4</p>
                     <p class="game__title">Камень,<br> ножницы,<br> бумага</p>
@@ -68,15 +68,15 @@
                 </article></a>
             </div>
             <div class="article">
-                <a href="#"><article class="game article__center">
-                <img src="img/game-2.jpg" alt="game №2" class="game__img">
+                <a href="#game-2"><article class="game article__center">
+                <img src="img/about-game/game-2.jpg" alt="game №2" class="game__img">
                 <div class="game__description">
                     <p class="game__number">Игра №2</p>
                     <p class="game__title">Простая <br> арифметика</p>
                 </div>
                 </article></a>
-                <a href="#"><article class="game article__center">
-                <img src="img/game-5.jpg" alt="game №5" class="game__img">
+                <a href="#game-5"><article class="game article__center">
+                <img src="img/about-game/game-5.jpg" alt="game №5" class="game__img">
                 <div class="game__description">
                     <p class="game__number">Игра №5</p>
                     <p class="game__title">Простая <br>викторина</p>
@@ -84,15 +84,15 @@
                 </article></a>
             </div>
             <div class="article">
-                <a href="#"><article class="game article__top">
-                <img src="img/game-3.jpg" alt="game №3" class="game__img">
+                <a href="#game-3"><article class="game article__top">
+                <img src="img/about-game/game-3.jpg" alt="game №3" class="game__img">
                 <div class="game__description">
                     <p class="game__number">Игра №3</p>
                     <p class="game__title">Переверни текст</p>
                 </div>
                 </article></a>
-                <a href="#"><article class="game article__bottom">
-                <img src="img/game-6.jpg" alt="game №6" class="game__img">
+                <a href="#game-6"><article class="game article__bottom">
+                <img src="img/about-game/game-6.jpg" alt="game №6" class="game__img">
                 <div class="game__description">
                     <p class="game__number">Игра №6</p>
                 <p class="game__title">Генератор <br>случайных <br>цветов</p>
@@ -106,6 +106,103 @@
             <img src="img/game-small-star.png" alt="Star" class="star-game-small">
         </div>
     </section>
-    <script src="script.js"></script>
+    <section class="mini-games center">
+        <p class="mini-games__title">Мини-игры</p>
+        <div class="mini-box">
+
+            <a href="#"><article class="mini" id="game-1">
+                <div class="mini__content">
+                    <h2 class="mini__title">Угадай число</h2>
+                    <p class="mini__description">Попробуй угадать случайное число от 1 до 100.</p>
+                    <div class="button-box">
+                        <div class="button">Играть!</div>
+                    </div>
+                </div>
+                <picture class="mini__img-box">
+                    <source class="mini__img" media="(max-width: 767px)" srcset="img/mini-game/Mob-MiniGame-1.jpg">
+                    <source class="mini__img" media="(min-width: 768px)" srcset="img/mini-game/MiniGame-1.jpg">
+                    <img class="mini__img" src="img/mini-game/MiniGame-1.jpg" alt="Game">
+                </picture>
+            </article></a>
+
+            <a href="#"><article class="mini mini-left" id="game-2">
+                <div class="mini__content">
+                    <h2 class="mini__title">Простая <br>арифметика</h2>
+                    <p class="mini__description">Попробуй решить простые арифметические задачи.</p>
+                    <div class="button-box">
+                        <div class="button">Играть!</div>
+                    </div>
+                </div>
+                <picture class="mini__img-box">
+                    <source class="mini__img" media="(max-width: 767px)" srcset="img/mini-game/Mob-MiniGame-2.jpg">
+                    <source class="mini__img" media="(min-width: 768px)" srcset="img/mini-game/MiniGame-2.jpg">
+                    <img class="mini__img" src="img/mini-game/MiniGame-2.jpg" alt="Game">
+                </picture>
+            </article></a>
+
+            <a href="#"><article class="mini" id="game-3">
+                <div class="mini__content">
+                    <h2 class="mini__title">Переверни текст</h2>
+                    <p class="mini__description">Попробуй ввести текст, который будет перевернут.</p>
+                    <div class="button-box">
+                        <div class="button">Играть!</div>
+                    </div>
+                </div>
+                <picture class="mini__img-box">
+                    <source class="mini__img" media="(max-width: 767px)" srcset="img/mini-game/Mob-MiniGame-3.jpg">
+                    <source class="mini__img" media="(min-width: 768px)" srcset="img/mini-game/MiniGame-3.jpg">
+                    <img class="mini__img" src="img/mini-game/MiniGame-3.jpg" alt="Game">
+                </picture>
+            </article></a>
+
+            <a href="#"><article class="mini mini-left" id="game-4">
+                <div class="mini__content">
+                    <h2 class="mini__title">Камень, <br>ножницы, <br>бумага</h2>
+                    <p class="mini__description">Сыграй в популярную игру против компьютера.</p>
+                    <div class="button-box">
+                        <div class="button">Играть!</div>
+                    </div>
+                </div>
+                <picture class="mini__img-box">
+                    <source class="mini__img" media="(max-width: 767px)" srcset="img/mini-game/Mob-MiniGame-4.jpg">
+                    <source class="mini__img" media="(min-width: 768px)" srcset="img/mini-game/MiniGame-4.jpg">
+                    <img class="mini__img" src="img/mini-game/MiniGame-4.jpg" alt="Game">
+                </picture>
+            </article></a>
+
+            <a href="#"><article class="mini" id="game-5">
+                <div class="mini__content">
+                    <h2 class="mini__title">Простая <br>викторина</h2>
+                    <p class="mini__description">Отвечай на вопросы викторины с вариантами ответов.</p>
+                    <div class="button-box">
+                        <div class="button">Играть!</div>
+                    </div>
+                </div>
+                <picture class="mini__img-box">
+                    <source class="mini__img" media="(max-width: 767px)" srcset="img/mini-game/Mob-MiniGame-5.jpg">
+                    <source class="mini__img" media="(min-width: 768px)" srcset="img/mini-game/MiniGame-5.jpg">
+                    <img class="mini__img" src="img/mini-game/MiniGame-5.jpg" alt="Game">
+                </picture>
+            </article></a>
+
+            <a href="#"><article class="mini mini-left" id="game-6">
+                <div class="mini__content">
+                    <h2 class="mini__title">Генератор <br>случайных <br>цветов</h2>
+                    <p class="mini__description">Игра, в которой при клике на кнопку фон страницы меняется на случайный.</p>
+                    <div class="button-box">
+                        <div class="button">Играть!</div>
+                    </div>
+                </div>
+                <picture class="mini__img-box">
+                    <source class="mini__img" media="(max-width: 767px)" srcset="img/mini-game/Mob-MiniGame-6.jpg">
+                    <source class="mini__img" media="(min-width: 768px)" srcset="img/mini-game/MiniGame-6.jpg">
+                    <img class="mini__img" src="img/mini-game/MiniGame-6.jpg" alt="Game">
+                </picture>
+            </article></a>
+        </div>
+    </section>
+    <footer class="footer center">
+        <p>Все права защищены.</p>
+    </footer>
 </body>
 </html>

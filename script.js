@@ -9,18 +9,19 @@ alert(year_of_manufacture);
 let creators_name = 'Brendan';
 alert(creators_name);
 
-a = 10;
+let c = 10;
 let b = 2;
-alert(a+b);
-alert(a-b);
-alert(a*b);
-alert(a/b);
+alert(c+b);
+alert(c-b);
+alert(c*b);
+alert(c/b);
 
 let result = 2**5;
 alert(result);
 
-a = 9;
-alert(a%b);
+let d = 9;
+let v = 2;
+alert(d%v);
 
 let num = 1;
 num += 5;
