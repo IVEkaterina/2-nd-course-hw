@@ -54,4 +54,62 @@
     .games {
         display: none;
     }
+    .mini {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        width: 343px;
+        &__star {
+            display: none;
+        }
+        &-games {
+            padding-bottom: 48px;
+        }
+        &__article {
+            &_1 {
+                height: 528.629638671875px;
+            }
+            &_2 {
+                height: 567.629638671875px;
+            }
+            &_3 {
+                height: 567.629638671875px;
+            }
+            &_4 {
+                height: 528.629638671875px;
+            }
+            &_5 {
+                height: 606.629638671875px;
+            }
+            &_6 {
+                height: 626.629638671875px;
+            }
+        }
+        &__title {
+            font-size: 32px;
+        }
+        &__description {
+            font-size: 16px;
+            line-height: 125%;
+            padding-top: 16px;
+            padding-bottom: 32px;
+        }
+        &__content {
+            padding-top: 29.04px;
+            padding-right: 29.04px;
+            padding-left: 29.04px;
+            padding-bottom: 32.67px;
+        }
+        &-games { 
+            &__title {
+                font-size: 40px;
+                vertical-align: middle;
+                padding-top: 48px;
+                padding-bottom: 48px;
+            }
+        }
+        &__img {
+            width: 343px;
+            height: 284.9259338378906px;
+        }
+    }
 }
