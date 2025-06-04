@@ -56,8 +56,8 @@
     }
     .mini {
         flex-direction: column-reverse;
-        justify-content: flex-start;
-        width: 343px;
+        max-width: 343px;
+        width: 100%;
         &__star {
             display: none;
         }
@@ -110,6 +110,9 @@
         &__img {
             width: 343px;
             height: 284.9259338378906px;
+            max-width: 100%;
+            height: auto;
+            display: block;
         }
     }
 }

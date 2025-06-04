@@ -370,8 +370,8 @@ a {
   }
   .mini {
     flex-direction: column-reverse;
-    justify-content: flex-start;
-    width: 343px;
+    max-width: 343px;
+    width: 100%;
   }
   .mini__star {
     display: none;
@@ -421,5 +421,8 @@ a {
   .mini__img {
     width: 343px;
     height: 284.9259338379px;
+    max-width: 100%;
+    height: auto;
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */
