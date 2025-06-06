@@ -116,3 +116,13 @@
         }
     }
 }
+
+@media (max-width: 1200px) and (min-width: 767px) {
+    .article {
+        flex-direction: row;
+        &__top {
+            height: 551px;
+            flex-wrap: wrap;
+        }   
+    }
+}

@@ -100,11 +100,13 @@
     }
     &-box {
         display: flex;
+        flex-wrap: wrap;
         gap: 32px;
     }
     &__img {
         display: block;
-        width: 378px;
+        max-width: 378px;
+        width: 100%;
         height: 314px;
         border-radius: 30px;
     }
