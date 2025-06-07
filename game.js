@@ -12,6 +12,10 @@ function guessNumber(programNumber) {
         if (userNumber === programNumber) {
             alert("Молодец! Ты отгадал число")
             break
+        } else if (userNumber < programNumber){
+            alert("Загаданное число больше")
+        } else if (userNumber > programNumber){
+            alert("Загаданное число меньше")
         } else {
             alert("Неправильно, попробуй ещё раз")
         }
