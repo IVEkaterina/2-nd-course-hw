@@ -100,11 +100,13 @@
     }
     &-box {
         display: flex;
+        flex-wrap: wrap;
         gap: 32px;
     }
     &__img {
         display: block;
-        width: 378px;
+        max-width: 378px;
+        width: 100%;
         height: 314px;
         border-radius: 30px;
     }
@@ -197,7 +199,7 @@
     }
 }
 .mini {
-    width: 1200px;
+    max-width: 1200px;
     height: 500px;
     border-radius: 30px;
     background: #FFFFFF;
@@ -228,6 +230,7 @@
         flex-direction: column;
     }
     &__title {
+        width: 450px;
         font-weight: 700;
         font-size: 48px;
         letter-spacing: 0px;
